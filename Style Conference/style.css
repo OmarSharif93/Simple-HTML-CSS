@@ -1,0 +1,145 @@
+html,
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  min-width: 1200px;
+  /*background: #fff;*/
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+a:hover {
+  color: #648880;
+}
+header {
+  background: #293f50;
+  width: 100%;
+  height: 176px;
+}
+.logo {
+  float: left;
+  color: #fff;
+  margin: 0 0 0 8%;
+  padding-top: 30px;
+  font-size: 48px;
+  font-weight: 100;
+  border-top: 4px solid #648880;
+  line-height: 0.9em;
+}
+.date {
+  text-align: right;
+  margin-right: 8%;
+  padding-top: 3.5rem;
+  margin-top: 0;
+  color: #648880;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+.nav-bar li {
+  display: inline-block;
+  margin: 0 0 0 10px;
+  vertical-align: top;
+}
+.head,
+.content-box p {
+  color: #888;
+}
+.nav-bar {
+  text-align: right;
+  margin-top: 20px;
+  margin-right: 8%;
+}
+.reg-box {
+  background: #293f50;
+  height: 300px;
+}
+.reg-box h2 {
+  margin-top: 0;
+  text-align: center;
+  color: #648880;
+  font-weight: lighter;
+  font-size: 36px;
+  padding-top: 20px;
+  margin-bottom: 1px;
+}
+.prief {
+  margin: 0 300px;
+  overflow: auto;
+}
+.prief p {
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+  font-weight: lighter;
+  margin-top: 3px;
+  line-height: 1.8em;
+}
+
+.btn-wrapper {
+  text-align: center;
+}
+.btn {
+  padding: 1.5em 2.3em;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: #293f50;
+  color: #fff;
+  font-size: 15px;
+}
+.btn-wrapper button:hover {
+  background-color: #fff;
+  color: #648880;
+}
+.content-box {
+  display: flex;
+  justify-content: center;
+  margin: 3em 15em;
+}
+.col {
+  width: 28%;
+  margin: 0 10px;
+}
+.col img {
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 22px;
+  max-width: 100%;
+}
+.col a{
+    color: #648880;
+}
+.col a:hover{
+    color: #888;
+}
+footer {
+  background-color: #293f50;
+  height: 100px;
+}
+
+footer .copy-right {
+  color: #648880;
+  float: left;
+  margin-top: 45px;
+  margin-left: 8%;
+  
+}
+
+footer li {
+  display: inline-block;
+  margin: 0 0 0 10px;
+  vertical-align: top;
+}
+
+.footer-nav-bar{
+    text-align: right;
+    font-size: 13px;
+    margin-right: 8%;
+   padding-top: 45px;
+}
